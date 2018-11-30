@@ -1,0 +1,141 @@
+body{
+	font-family: Tahoma;
+	background-image: url(../img/fon2.jpg);
+	transition-property: background-image;
+	transition-duration: 5s;
+
+}
+
+
+
+img{
+	width: 190px;
+	height: 150px;
+}
+
+input{
+	margin-bottom: 10px
+}
+
+span.header {
+	color: green;
+	margin-right: 30px;
+	padding-left: 10px;
+	height: 40px;
+	font-size: 40px;
+
+}
+
+a.logo img {
+	width: 60px;
+	height: 50px;
+	margin-top: 10px;
+	color: blue;
+
+}
+
+footer{
+	background-color: #5CB1FF;
+	margin-top: 165px;
+
+}
+
+a.logo{
+	text-decoration: none;
+
+}
+
+
+
+/*button{
+ text-decoration:none; 
+ text-align:center; 
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:30px;
+ -moz-border-radius:30px; 
+ border-radius: 30px;
+ font:16px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background-color:#3BA4C7; 
+ background-image: -moz-linear-gradient(top, #3BA4C7 0%, #0af511 100%); 
+ background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #0af511 100%); 
+ background-image: -o-linear-gradient(top, #3BA4C7 0%, #0af511 100%); 
+ background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#0af511 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0af511', endColorstr='#0af511',GradientType=0 ); 
+ background-image: linear-gradient(top, #3BA4C7 0% ,#0af511 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  cursor: pointer;
+
+  }*/
+
+  .search{
+  	width: 600px;
+
+  }
+
+
+
+
+/*.blocks div {
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	display: inline-block;
+}
+
+.blocks div:hover {
+	background-color: green;
+}
+
+.noevent {
+	pointer-events: none;
+	}*/
+
+
+/*.e:hover{
+background-image: url(../img/e1.png);
+widows: 100px;
+height: 100px;
+
+}
+
+.s:hover{
+background-image: url(../img/s1.png);
+widows: 100px;
+height: 100px;
+
+}
+
+.a:hover{
+background-image: url(../img/a1.png);
+widows: 100px;
+height: 100px;
+
+}
+
+.ht:hover{
+background-image: url(../img/ht1.png);
+widows: 100px;
+height: 100px;
+
+}
+
+.co:hover{
+background-image: url(../img/co1.png);
+widows: 100px;
+height: 100px;
+
+}
+
+.wi:hover{
+background-image: url(../img/wi1.png);
+widows: 100px;
+height: 100px;
+
+}*/
+
+
