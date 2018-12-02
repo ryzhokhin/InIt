@@ -5,6 +5,20 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="icon" href="img/no.ico">
+		<style type="text/css">
+   #content {
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto 50px; /* Выравнивание по центру */
+   }
+   #footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    /*background: ;  Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+  </style>
 
 	</head>
 	<body>
@@ -26,7 +40,7 @@ var a = prompt ("№1");
 
 var i = prompt ("№2");
 
-if (a == "INIT"  && i == "23571113") {
+if (a == "INIT"  || i == "23571113") {
 
 alert ("введи в следующем окне INIT_KudiDryz");
 
@@ -40,7 +54,7 @@ alert ("введи в следующем окне INIT_KudiDryz");
 
 //}
 var g = prompt ("login");
-if( g == "INIT_KudiDryz" && a == "INIT"  && i == "23571113"){alert ("welcome");}
+if( g == "INIT_KudiDryz" || a == "INIT"  ||i == "23571113"){alert ("welcome");}
     else{
     alert ("система заблокирована создатилем!");
 
@@ -96,12 +110,16 @@ document.location.href="file:///home/ilya/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D
 
 
 </center>
-
-<footer>
+<!-- <footer>
 
 	разработано ilya.kudrenko@gmail.com , ryzhokhin@gmail.com в 2018г
 
 </footer>
+ -->
 
+
+ <div id="footer">
+   &copy; dan.ryzhokhin@gmail.com , ilya.kudrenko@gmail.com
+  </div>
 </body>
 </html>
